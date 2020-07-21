@@ -1,0 +1,102 @@
+﻿body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section1 {
+    width: 69%;
+    background-image: url('img/image bar.jpg');
+    background-size: cover;
+}
+
+#section2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#subSection1 {
+    background-color: #05240D;
+    display: flex;
+    flex-direction: column;
+}
+
+#subSection2 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.subSectionSize {
+    width: 100%;
+    height: 49%;
+}
+
+.pTextColor {
+    color: white;
+}
+
+#section1Div1 {
+    margin: 10%;
+    width: fit-content;
+    background-color: white;
+    font-size: 13px;
+    padding: 0.5% 2%;
+}
+
+#section1Div2 {
+    margin: 40% 0 0 10%;
+    font-weight: bold;
+}
+
+#section1Div1LinkEditingFirst {
+    margin-top: 10px;
+}
+
+.section1Div1LinkEditing {
+    text-decoration: none;
+}
+
+#section1SubS1Div1 {
+    text-align: center;
+    font-size: 15px;
+}
+
+#section1SubS1Div2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#section1SubS1Div2p1 { //
+    text-align: center;
+}
+
+.subSectionMajorDiv {
+    margin: auto;
+}
+
+#subSectionMajorDiv1 {
+
+}
+
+#subSectionMajorDiv2 {
+    padding: 10%;
+}
+
+#section2SubS2Div1 {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: flex;
+}
+
+#section2SubS2Div1P1 {
+    margin: auto;
+}
