@@ -1,4 +1,4 @@
-﻿/* Generics functions */
+﻿/* Generic functions */
 .display_flex {
     display: flex;
 }
@@ -15,14 +15,14 @@
     margin: auto;
 }
 
-/* Modifications liées au corp principal du site */
+/* Amendments related to the main body of the web site */
 body {
     margin: 0;
     width: 100vw;
     height: 100vh;
 }
 
-/* Modifications liées à la "section 1" */
+/* Amendments related to "section 1" */
 #nav {
     margin: 10%;
     width: fit-content;
@@ -58,7 +58,7 @@ a {
     line-height: 40px;
 }
 
-/* Modifications liées à la "section 2" */
+/* Amendments related to "section 2 */
 #section2 {
     width: 30%;
     height: 100%;
@@ -90,7 +90,7 @@ a {
     border-radius: 50%;
 }
 
-/* Classes génériques */
+/* Generic classes */
 .sub_section_class {
     width: 100%;
     height: 49%;
