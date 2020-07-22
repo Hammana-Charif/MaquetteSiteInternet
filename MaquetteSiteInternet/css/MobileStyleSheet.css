@@ -1,0 +1,119 @@
+﻿@media all and (max-width: 500px) {
+    /* Generic functions */
+/*    .display_flex {
+        display: flex;
+    }
+
+    .column {
+        flex-direction: column;
+    }
+
+    .space_betweeen {
+        justify-content: space-between;
+    }*/
+
+    .auto {
+        margin: auto;
+    }
+
+    /* Amendments related to the main body of the web site */
+    body {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    /* Amendments related to "section 1" */
+    #nav {
+        width: 100%;
+        background-color: white;
+        font-size: 10px;
+    }
+
+    .link_menu {
+        text-decoration: none;
+    }
+
+    #section1 {
+        height: 59%;
+        background-image: url('./../img/image bar.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sub_section1_id {
+        background-color: #05240D;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section1_div1 {
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+    }
+
+    #p1_id {
+        line-height: 30px;
+    }
+
+    /* Amendments related to "section 2 */
+    #section2 {
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #sub_section2_id {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sub_section1_major_div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sub_section2_major_div {
+        padding: 0 0 0 5%;
+    }
+
+    #section2_div1 {
+        font-size: 15px;
+    }
+
+    #section2_div2 {
+        font-size: 15px;
+    }
+
+    #sub_section2_div1 {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+        display: flex;
+        margin: auto;
+    }
+
+    /* Generic classes */
+    .sub_section_class {
+        height: 48.5%;
+    }
+
+    .p_text_class {
+        color: white;
+        margin: auto;
+    }
+}
